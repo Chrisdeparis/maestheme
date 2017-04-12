@@ -1,0 +1,368 @@
+/*
+  Theme Name : Maes Theme
+  Theme URI: http://maes.com/maestheme
+  Author: Maes
+  Description: This is a Maes theme
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'league_spartanregular';
+    src: url('fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('fonts/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  width: 1200px;
+  background-color: rgb(51, 57, 92);
+  color: #ffffff;
+  font-family: 'league_spartanregular', serif;
+	margin: 0 auto;
+}
+/* 1st part */
+body > div > div:nth-child(1) {
+  background-image:url(../img/classic-twist.png);
+  margin-left: 86px;
+  margin-right: 86px;
+  height: 482px;
+}
+body > div > div:nth-child(1) > div {
+  margin-top: 70px;
+  margin-right: 67px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 415px;
+}
+body > div > div:nth-child(1) > div > h1 {
+  font-size:64px;
+}
+body > div > div:nth-child(1) > div > p{
+  font-size: 30px;
+  margin-top: 45px;
+}
+body > div > div:nth-child(1) > div > button {
+
+  background-color: rgb(233, 208, 54);
+  border-radius: 32px;
+  line-height: 32px;
+  border: solid rgb(233, 208, 54);
+  width: 165px;
+  margin-top: 45px;
+}
+body > div > div:nth-child(1) > div > button > a {
+  text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 20px;
+}
+/* 2nd part */
+body > div > div:nth-child(2){
+  height: 800px;
+
+  margin-left: 86px;
+  margin-right: 86px;
+  display: flex;
+  flex-direction: row;
+}
+body > div > div:nth-child(2) > div:nth-child(1) > div > button {
+  background-color: rgb(73, 26, 55);
+  border-radius: 18px;
+  line-height: 26px;
+  border: solid rgb(73, 26, 55);
+  width: 137px;
+}
+body > div > div:nth-child(2) > div:nth-child(1) > div > button > a {
+  text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 16px;
+}
+body > div > div:nth-child(2) > div:nth-child(1) {
+  width: 443px;
+  background-image:url(../img/pumpkin.png);
+  text-align: center;
+
+}
+body > div > div:nth-child(2) > div:nth-child(1) > div {
+	margin-top: 465px;
+}
+
+body > div > div:nth-child(2) > div:nth-child(1) > div > h2{
+  font-size: 44px;
+	width: 379px;
+}
+body > div > div:nth-child(2) > div:nth-child(1) > div > p {
+  margin-top: 45px;
+  font-size: 28px;
+}
+body > div > div:nth-child(2) > div:nth-child(1) > div > button {
+  margin-top: 45px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div {
+  width: 627px;
+  height: 400px;
+
+	background-image:url(../img/green-peas.png);
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > h2 {
+	font-size: 44px;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > button {
+	background-color: rgb(62, 103, 201);
+  border-radius: 18px;
+  line-height: 26px;
+	margin-top: 40px;
+  border: solid rgb(62, 103, 201);
+  width: 144px;
+	margin-left: 40px
+
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > button > a {
+	text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 16px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > p{
+	font-size: 28px;
+	width: 20px;
+	line-height: 50px;
+	padding-top: 20px;
+	margin-left: 40px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div {
+	display: flex;
+	display: -webkit-flex;
+	background-color: black;
+	height: 400px;
+	margin-top: 70px;
+	align-content: space-between;
+	align-items: stretch;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) {
+	text-align: center;
+	background-color: rgb(99, 111, 230);
+	width: 314px;
+	font-size: 13px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(2) {
+	padding-top: 75px;
+	width: 314px;
+	text-align: center;
+	font-size: 24px;
+	background-image:url(../img/chocolate.png);
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > h2{
+	padding-top: 74px;
+
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Old Standard TT', serif;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > input[type="text"]:nth-child(2) {
+	margin-top: 47px;
+	border-radius: 18px;
+	line-height: 28px;
+	border: solid #fff;
+	text-align: center;
+
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > input[type="checkbox"]:nth-child(4) {
+	color: rgb(101, 216, 185);
+	margin-top: 23px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > button {
+	background-color: rgb(101, 216, 185);
+  border-radius: 18px;
+  line-height: 26px;
+	margin-top: 40px;
+  border: solid rgb(101, 216, 185);
+  width: 141px;
+
+}
+
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > button > a {
+	text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 16px;
+}
+body > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(2) > i {
+	margin-top: 24px;
+}
+
+/* 3rd part */
+body > div > div:nth-child(3) {
+	display: flex;
+	background-color: rgb(219, 226, 236);
+  margin-left: 86px;
+  margin-right: 86px;
+  height: 466px;
+}
+body > div > div:nth-child(3) > div:nth-child(1) {
+	width: 660px;
+	padding-left: 55px;
+	padding-top: 84px;
+	background-image: url(../img/oliver.png);
+	background-repeat: no-repeat;
+  background-position-x: 111px;
+}
+body > div > div:nth-child(3) > div:nth-child(1) > h2 {
+	font-size: 44px;
+	color: rgb(93, 95, 129);
+}
+body > div > div:nth-child(3) > div:nth-child(1) > p {
+	font-size: 30px;
+	color: rgb(127, 129, 150);
+	margin-top: 40px;
+	width: 250px;
+}
+body > div > div:nth-child(3) > div:nth-child(1) > button {
+	background-color: rgb(217, 93, 77);
+  border-radius: 18px;
+  line-height: 26px;
+	margin-top: 40px;
+  border: solid rgb(217, 93, 77);
+  width: 141px;
+}
+body > div > div:nth-child(3) > div:nth-child(1) > button > a {
+	text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(0, 177, 237);
+	text-align: center;
+	width: 313px;
+	height: 233px;
+
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > button {
+	background-color: rgb(114, 200, 230);
+  border-radius: 18px;
+  line-height: 26px;
+	margin-top: 40px;
+  border: solid rgb(114, 200, 230);
+  width: 141px;
+	margin: auto;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > button > a {
+	text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 16px;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > i{
+	margin-top: 70px;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(59, 90, 154);
+	text-align: center;
+	width: 313px;
+	height: 233px;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > i {
+	margin-top: 70px;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > button {
+	background-color: rgb(91, 121, 184);
+  border-radius: 18px;
+  line-height: 26px;
+	margin-top: 40px;
+  border: solid rgb(91, 121, 184);
+  width: 141px;
+	margin: auto;
+}
+body > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > button > a {
+	text-decoration: none;
+  font-family: 'league_spartanregular', serif;
+  color: #fff;
+	font-size: 16px;
+}
+.centre {
+	margin: 0 auto;
+}
+p {
+  font-family: 'Old Standard TT', serif;
+}
+footer {
+	text-align: center;
+	font-size: 13px;
+	font-family: arial;
+	margin-top: 68px;
+	margin-left: 86px;
+	margin-right: 86px;
+}
+header {
+	display: flex;
+  justify-content: space-between;
+  margin-right: 86px;
+	margin-left: 86px;
+}
+nav {
+	margin-top: 62px;
+}
+body > header > img {
+
+	margin-top: 62px;
+	margin-bottom: 53px;
+}
